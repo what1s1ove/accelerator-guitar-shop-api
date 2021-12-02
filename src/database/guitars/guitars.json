@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Честер Bass",
+    "vendorCode": "SO757575",
+    "type": "electric",
+    "stringCount": 7,
+    "price": 17500
+  },
+  {
+    "id": 2,
+    "name": "СURT Z300",
+    "vendorCode": "TK129049",
+    "type": "electric",
+    "stringCount": 7,
+    "price": 29500
+  },
+  {
+    "id": 3,
+    "name": "Roman LX",
+    "vendorCode": "RO111111",
+    "type": "ukulele",
+    "stringCount": 4,
+    "price": 6800
+  },
+  {
+    "id": 4,
+    "name": "СURT T300",
+    "vendorCode": "TK436457",
+    "type": "electric",
+    "stringCount": 6,
+    "price": 30000
+  },
+  {
+    "id": 5,
+    "name": "Dania Super",
+    "vendorCode": "DI192138",
+    "type": "acoustic",
+    "stringCount": 7,
+    "price": 3500
+  }
+]

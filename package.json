@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "dependencies": {
+    "joi": "17.5.0"
+  },
+  "devDependencies": {
+    "json-server": "0.17.0"
+  },
+  "scripts": {
+    "start": "node src/server"
+  }
+}
