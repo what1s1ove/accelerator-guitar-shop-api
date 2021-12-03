@@ -17,6 +17,21 @@
 }
 ```
 
+### Comment
+
+```json
+{
+    "id": "a7c267d0-a72d-41bd-8b8e-e7f67800d58a",
+    "userName": "Саша",
+    "advantages": "Хорошо. Очень хорошо.",
+    "disadvantages": "Плохо. Очень плохо.",
+    "comment": "Неплохо, но дорого.",
+    "rating": 3,
+    "createAt": "2021-10-28T12:32:16.934Z",
+    "guitarId": 1
+}
+```
+
 ### CouponPost
 
 ```json
@@ -42,7 +57,8 @@
 ## Список роутов
 
 - **GET** `/guitars` – получить список гитар.
-- **GET** `/guitars/1` – получить квест c идентификатором `id`.
+- **GET** `/guitars/1` – получить гитару по идентификатору `id`.
+- **GET** `/guitars/1/comments`– получить коментарии гитары по идентификатору `id`.
 - **POST** `/coupons` – отправить купон. Если купон валидный, роут возвращает процент скидки.
 - **POST** `/orders` – отправить новый заказ.
 
@@ -61,8 +77,8 @@ GET /guitars?name=СURT&type=electric
 `_sort` и `_order` (`desc` или `asc`. `asc` по-умолчанию)
 
 ```
-GET /posts?_sort=price
-GET /posts?_sort=rating&_order=asc
+GET /guitars?_sort=price
+GET /guitars?_sort=rating&_order=asc
 ```
 
 ### Диапазон
@@ -89,4 +105,20 @@ GET /guitars?price_gte=20000&price_lte=30000
 
 ```
 GET /guitars?name_like=Bass
+```
+
+### Связи
+
+
+`_embed` для добавления связей
+
+```
+GET /guitars?_embed=comments
+GET /guitars/1?_embed=comments
+```
+
+Получить вложенные связи
+
+```
+GET  /guitars/1/comments
 ```
