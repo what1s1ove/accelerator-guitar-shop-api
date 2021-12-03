@@ -6,3 +6,4 @@ export {
   CouponValidationMessage,
 } from './coupon/coupon.js';
 export { HttpCode, HttpMethod } from './http/http.js';
+export { OrderCreatePayload, OrderValidationMessage } from './order/order.js';

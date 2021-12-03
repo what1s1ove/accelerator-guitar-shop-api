@@ -1,14 +1,50 @@
 # Accelerator Guitar Shop API
 
-## Ресурсы
+## Структуры данных
 
-```
-/guitars
+### Guitar
+
+```json
+{
+  "id": 1,
+  "name": "Честер Bass",
+  "vendorCode": "SO757575",
+  "type": "electric",
+  "previewImg": "img/guitar-1.jpg",
+  "stringCount": 7,
+  "rating": 4,
+  "price": 17500
+}
 ```
 
+### CouponPost
+
+```json
+{
+  "coupon": "light-333"
+}
 ```
-/guitars/1
+
+Значение **`coupon`** одно из следуюих значений: `light-333`, `medium-444` или `height-555`.
+
+### OrderPost
+
+```json
+{
+  "guitarsIds": [1, 4],
+  "coupon": "light-333"
+}
 ```
+
+Значение **`coupon`** должно быть одно из валидных значений **`CouponPost`**.
+
+
+## Список роутов
+
+- **GET** `/guitars` – получить список гитар.
+- **GET** `/guitars/1` – получить квест c идентификатором `id`.
+- **POST** `/coupons` – отправить купон. Если купон валидный, роут возвращает процент скидки.
+- **POST** `/orders` – отправить новый заказ.
 
 ## Query-параметры
 

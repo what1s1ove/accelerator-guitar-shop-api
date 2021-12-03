@@ -1,5 +1,5 @@
 const CouponValidationMessage = {
-  ONE_OF: 'Invalid Value',
+  COUPON_ONE_OF: 'Invalid Value',
 };
 
 export { CouponValidationMessage };
