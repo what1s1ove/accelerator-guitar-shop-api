@@ -1,6 +1,6 @@
 import Joi from 'joi';
 import {
-  OrderCreatePayload,
+  OrderCreatePayloadKey,
   OrderValidationMessage,
   CouponType,
 } from '../../common/enums/enums.js';
@@ -8,10 +8,10 @@ import {
 const couponTypes = Object.values(CouponType);
 
 const orderCreatePayload = Joi.object({
-  [OrderCreatePayload.GUITARS_IDS]: Joi.array()
+  [OrderCreatePayloadKey.GUITARS_IDS]: Joi.array()
     .items(Joi.number().positive().required())
     .required(),
-  [OrderCreatePayload.COUPON]: Joi.string()
+  [OrderCreatePayloadKey.COUPON]: Joi.string()
     .valid(...couponTypes)
     .required()
     .messages({

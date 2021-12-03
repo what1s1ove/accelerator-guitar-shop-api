@@ -23,8 +23,8 @@ const getCommentDate = () => {
 const generateComment = (guitarId) => ({
   id: getRandomId(),
   userName: getRandomItem(Config.USER_NAME),
-  advantages: getRandomItem(Config.ADVANTAGES),
-  disadvantages: getRandomItem(Config.DISADVANTAGES),
+  advantage: getRandomItem(Config.ADVANTAGES),
+  disadvantage: getRandomItem(Config.DISADVANTAGES),
   comment: getRandomItem(Config.COMMENTS),
   rating: getRandomNumber(Config.RATING_COUNT.MIN, Config.RATING_COUNT.MAX),
   createAt: getCommentDate(),
