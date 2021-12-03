@@ -4,7 +4,9 @@
     "name": "Честер Bass",
     "vendorCode": "SO757575",
     "type": "electric",
+    "previewImg": "img/guitar-1.jpg",
     "stringCount": 7,
+    "rating": 4,
     "price": 17500
   },
   {
@@ -12,7 +14,9 @@
     "name": "СURT Z300",
     "vendorCode": "TK129049",
     "type": "electric",
+    "previewImg": "img/guitar-8.jpg",
     "stringCount": 7,
+    "rating": 3.5,
     "price": 29500
   },
   {
@@ -20,7 +24,9 @@
     "name": "Roman LX",
     "vendorCode": "RO111111",
     "type": "ukulele",
+    "previewImg": "img/guitar-6.jpg",
     "stringCount": 4,
+    "rating": 4,
     "price": 6800
   },
   {
@@ -28,7 +34,9 @@
     "name": "СURT T300",
     "vendorCode": "TK436457",
     "type": "electric",
+    "previewImg": "img/guitar-3.jpg",
     "stringCount": 6,
+    "rating": 5,
     "price": 30000
   },
   {
@@ -36,7 +44,229 @@
     "name": "Dania Super",
     "vendorCode": "DI192138",
     "type": "acoustic",
+    "previewImg": "img/guitar-4.jpg",
     "stringCount": 7,
+    "rating": 4.5,
     "price": 3500
+  },
+  {
+    "id": 6,
+    "name": "Честер WX",
+    "vendorCode": "SO934345",
+    "type": "electric",
+    "previewImg": "img/guitar-2.jpg",
+    "stringCount": 6,
+    "rating": 3.5,
+    "price": 15300
+  },
+  {
+    "id": 7,
+    "name": "Dania VX",
+    "vendorCode": "DI082347",
+    "type": "ukulele",
+    "previewImg": "img/guitar-5.jpg",
+    "stringCount": 4,
+    "rating": 2.5,
+    "price": 2200
+  },
+  {
+    "id": 8,
+    "name": "Честер Plus",
+    "vendorCode": "SO135646",
+    "type": "electric",
+    "previewImg": "img/guitar-7.jpg",
+    "stringCount": 4,
+    "rating": 4.5,
+    "price": 30000
+  },
+  {
+    "id": 9,
+    "name": "Виолана 300",
+    "vendorCode": "VO154751",
+    "type": "acoustic",
+    "previewImg": "img/guitar-10.jpg",
+    "stringCount": 7,
+    "rating": 3,
+    "price": 1700
+  },
+  {
+    "id": 10,
+    "name": "СURT Clasic",
+    "vendorCode": "TK244556",
+    "type": "electric",
+    "previewImg": "img/guitar-9.jpg",
+    "stringCount": 4,
+    "rating": 4,
+    "price": 23000
+  },
+  {
+    "id": 11,
+    "name": "СURT Z250",
+    "vendorCode": "TK134663",
+    "type": "electric",
+    "previewImg": "img/guitar-4.jpg",
+    "stringCount": 4,
+    "rating": 3.5,
+    "price": 18700
+  },
+  {
+    "id": 12,
+    "name": "Честер 7X",
+    "vendorCode": "SO123212",
+    "type": "electric",
+    "previewImg": "img/guitar-5.jpg",
+    "stringCount": 7,
+    "rating": 4,
+    "price": 35000
+  },
+  {
+    "id": 13,
+    "name": "Честер 6V",
+    "vendorCode": "SO123234",
+    "type": "electric",
+    "previewImg": "img/guitar-8.jpg",
+    "stringCount": 6,
+    "rating": 4.5,
+    "price": 14900
+  },
+  {
+    "id": 14,
+    "name": "Виолана Mix",
+    "vendorCode": "VO519510",
+    "type": "acoustic",
+    "previewImg": "img/guitar-6.jpg",
+    "stringCount": 6,
+    "rating": 4.5,
+    "price": 14900
+  },
+  {
+    "id": 15,
+    "name": "Виолана 250x",
+    "vendorCode": "VO457369",
+    "type": "acoustic",
+    "previewImg": "img/guitar-5.jpg",
+    "stringCount": 6,
+    "rating": 3.5,
+    "price": 6500
+  },
+  {
+    "id": 16,
+    "name": "Фабио Лайт",
+    "vendorCode": "FB625903",
+    "type": "acoustic",
+    "previewImg": "img/guitar-4.jpg",
+    "stringCount": 7,
+    "rating": 2.5,
+    "price": 12000
+  },
+  {
+    "id": 17,
+    "name": "Фабио L100",
+    "vendorCode": "FB576948",
+    "type": "acoustic",
+    "previewImg": "img/guitar-2.jpg",
+    "stringCount": 7,
+    "rating": 3.5,
+    "price": 9900
+  },
+  {
+    "id": 18,
+    "name": "Liana Z200",
+    "vendorCode": "LU012032",
+    "type": "acoustic",
+    "previewImg": "img/guitar-1.jpg",
+    "stringCount": 12,
+    "rating": 4.5,
+    "price": 8900
+  },
+  {
+    "id": 19,
+    "name": "Liana Z100",
+    "vendorCode": "LU546853",
+    "type": "acoustic",
+    "previewImg": "img/guitar-8.jpg",
+    "stringCount": 12,
+    "rating": 4,
+    "price": 10500
+  },
+  {
+    "id": 20,
+    "name": "Liana Z300",
+    "vendorCode": "LU458283",
+    "type": "acoustic",
+    "previewImg": "img/guitar-5.jpg",
+    "stringCount": 6,
+    "rating": 5,
+    "price": 13300
+  },
+  {
+    "id": 21,
+    "name": "Roman RX",
+    "vendorCode": "RO324341",
+    "type": "ukulele",
+    "previewImg": "img/guitar-4.jpg",
+    "stringCount": 4,
+    "rating": 1.5,
+    "price": 4800
+  },
+  {
+    "id": 22,
+    "name": "Roman TX",
+    "vendorCode": "RO214235",
+    "type": "ukulele",
+    "previewImg": "img/guitar-8.jpg",
+    "stringCount": 4,
+    "rating": 4.5,
+    "price": 1900
+  },
+  {
+    "id": 23,
+    "name": "Dania U100",
+    "vendorCode": "DI132414",
+    "type": "ukulele",
+    "previewImg": "img/guitar-9.jpg",
+    "stringCount": 4,
+    "rating": 3.5,
+    "price": 2500
+  },
+  {
+    "id": 24,
+    "name": "Dania WR",
+    "vendorCode": "DI934754",
+    "type": "ukulele",
+    "previewImg": "img/guitar-10.jpg",
+    "stringCount": 4,
+    "rating": 2,
+    "price": 3800
+  },
+  {
+    "id": 25,
+    "name": "Dania LE",
+    "vendorCode": "DI034292",
+    "type": "ukulele",
+    "previewImg": "img/guitar-2.jpg",
+    "stringCount": 4,
+    "rating": 2.5,
+    "price": 4100
+  },
+  {
+    "id": 26,
+    "name": "Mirana V10",
+    "vendorCode": "MI193214",
+    "type": "ukulele",
+    "previewImg": "img/guitar-1.jpg",
+    "stringCount": 4,
+    "rating": 3.5,
+    "price": 2700
+  },
+  {
+    "id": 27,
+    "name": "Виолана Mini",
+    "vendorCode": "VO043244",
+    "type": "ukulele",
+    "previewImg": "img/guitar-3.jpg",
+    "stringCount": 2.5,
+    "rating": 4,
+    "price": 6700
   }
 ]

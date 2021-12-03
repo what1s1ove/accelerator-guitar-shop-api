@@ -1,7 +1,2 @@
-const { HttpCode } = require('./http-code.enum');
-const { HttpMethod } = require('./http-method.enum');
-
-module.exports = {
-  HttpCode,
-  HttpMethod,
-};
+export { HttpCode } from './http-code.enum.js';
+export { HttpMethod } from './http-method.enum.js';

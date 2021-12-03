@@ -1,9 +1,9 @@
-const guitars = require('./guitars/guitars.json');
+import { readFileSync } from '../helpers/helpers.js';
 
 const initDatabase = () => ({
-  guitars,
+  guitars: JSON.parse(
+    readFileSync(new URL('./guitars/guitars.json', import.meta.url)),
+  ),
 });
 
-module.exports = {
-  initDatabase,
-};
+export { initDatabase };

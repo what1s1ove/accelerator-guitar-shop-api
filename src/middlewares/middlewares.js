@@ -1,7 +1,1 @@
-const {
-  validateSchema,
-} = require('./validate-schema/validate-schema.middleware');
-
-module.exports = {
-  validateSchema,
-};
+export { validateSchema } from './validate-schema/validate-schema.middleware.js';
