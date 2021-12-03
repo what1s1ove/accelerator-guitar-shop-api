@@ -1,0 +1,16 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - production
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy to Glitch Project
+      uses: kanadgupta/glitch-sync@main
+      with:
+        project-id: ${{ secrets.PROJECT_ID }}
+        auth-token: ${{ secrets.AUTH_TOKEN }}
