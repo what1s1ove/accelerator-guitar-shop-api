@@ -12,6 +12,7 @@ ULR: https://accelerator-guitar-shop-api-v1.glitch.me
   "name": "Честер Bass",
   "vendorCode": "SO757575",
   "type": "electric",
+  "description": "Вариант для настоящих профессионалов. Двенадцатиструнный инструмент оснащён карбоновыми струнами и корпусом из массива ели.",
   "previewImg": "img/guitar-1.jpg",
   "stringCount": 7,
   "rating": 4,
