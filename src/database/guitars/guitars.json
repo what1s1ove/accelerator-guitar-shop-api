@@ -93,7 +93,7 @@
     "vendorCode": "VO154751",
     "type": "acoustic",
     "description": "Классическая бюджетная акустическая семиструная гитара от отечественного производителя. Ель в качестве основного материала корпуса отличается лёгкостью и износостойкостью.",
-    "previewImg": "img/guitar-10.jpg",
+    "previewImg": "img/guitar-1.jpg",
     "stringCount": 7,
     "rating": 3,
     "price": 1700
@@ -104,7 +104,7 @@
     "vendorCode": "TK244556",
     "type": "electric",
     "description": "Корпус электрогитары окрашен в классический цвет, гриф имеет профиль 'С'.  Подойдёт для исполнения композиций разных жанров.",
-    "previewImg": "img/guitar-9.jpg",
+    "previewImg": "img/guitar-7.jpg",
     "stringCount": 4,
     "rating": 4,
     "price": 23000
@@ -247,7 +247,7 @@
     "vendorCode": "DI132414",
     "type": "ukulele",
     "description": "Элегантная гитара размера S (сопрано). На укулеле, в отличие от классических электро и аккустических гитар, установлены мягкие нейлоновые струны.",
-    "previewImg": "img/guitar-9.jpg",
+    "previewImg": "img/guitar-7.jpg",
     "stringCount": 4,
     "rating": 3.5,
     "price": 2500
@@ -258,7 +258,7 @@
     "vendorCode": "DI934754",
     "type": "ukulele",
     "description": "Dania WR - четырёхструнная гавайская гитара, имеющая приятный дизайн и узнаваемое звучание.",
-    "previewImg": "img/guitar-10.jpg",
+    "previewImg": "img/guitar-1.jpg",
     "stringCount": 4,
     "rating": 2,
     "price": 3800
