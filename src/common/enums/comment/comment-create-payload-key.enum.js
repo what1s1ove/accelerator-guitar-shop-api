@@ -3,7 +3,7 @@ const CommentCreatePayloadKey = {
   ADVANTAGE: 'advantage',
   DISADVANTAGE: 'disadvantage',
   COMMENT: 'comment',
-  RATING: 'ratting',
+  RATING: 'rating',
   GUITAR_ID: 'guitarId',
 };
 
