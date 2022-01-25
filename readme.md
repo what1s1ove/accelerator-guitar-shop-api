@@ -65,6 +65,13 @@ ULR: https://accelerator-guitar-shop-api-v1.glitch.me
   "guitarsIds": [1, 4],
   "coupon": "light-333"
 }
+
+// or
+
+{
+  "guitarsIds": [1, 4],
+  "coupon": null
+}
 ```
 
 Значение **`coupon`** должно быть одно из валидных значений **`CouponPost`**.
