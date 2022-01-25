@@ -12,7 +12,7 @@ const orderCreatePayload = Joi.object({
     .items(Joi.number().positive().required())
     .required(),
   [OrderCreatePayloadKey.COUPON]: Joi.string()
-    .valid(...couponTypes)
+    .valid(...couponTypes, null)
     .required()
     .messages({
       'any.only': OrderValidationMessage.COUPON_ONE_OF,
